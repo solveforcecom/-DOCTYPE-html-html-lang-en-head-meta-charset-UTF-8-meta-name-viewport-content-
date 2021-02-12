@@ -1,0 +1,10 @@
+version = 1
+
+test_patterns = ["https://deepsource.io/gh/solveforcecom/-DOCTYPE-html-html-lang-en-head-meta-charset-UTF-8-meta-name-viewport-content-/generate-config/"]
+
+[[analyzers]]
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_paths = ["github.com/solveforcecom/-DOCTYPE-html-html-lang-en-head-meta-charset-UTF-8-meta-name-viewport-content-"]
